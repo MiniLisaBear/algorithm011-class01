@@ -211,7 +211,7 @@ comparator为自己重写的比较方法，如果有重写改方法，siftUpUsin
             return true;
         }
     }
-首先定位待移除元素的位置，然后调用removeAt方法移除。
+首先定位待移除元素的位置，然后调用removeAt方法移除。<br>
 **removeAt(int i)**
 
 	private E removeAt(int i) {
@@ -232,7 +232,7 @@ comparator为自己重写的比较方法，如果有重写改方法，siftUpUsin
         }
         return null;
     }
-移除最后一个元素，直接将元素置为null。不是最后一个元素，移除的时候也要进行堆的维护，默认是小顶堆。
+移除最后一个元素，直接将元素置为null。不是最后一个元素，移除的时候也要进行堆的维护，默认是小顶堆。<br>
 **siftDown(int k, E x)**
 
 	private void siftDown(int k, E x) {
