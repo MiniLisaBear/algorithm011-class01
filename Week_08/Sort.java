@@ -1,6 +1,7 @@
-学习笔记
+package com.swpu.jike.week08;
 
-	//选择排序--从后面找一个最小的放当前位置
+public class Sort {
+    //选择排序--从后面找一个最小的放当前位置
     public int[] searchSort(int[] nums) {
         int len = nums.length;
         int minIndex,temp;
@@ -122,3 +123,5 @@
             heapify(nums,len,largest);
         }
     }
+
+}
